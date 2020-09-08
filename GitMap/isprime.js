@@ -6,8 +6,4 @@ let b = isPrime(x);
 let stop = new Date();
 let elapsed = stop - start;
 
-document.write("Is it a prime number? ")
-document.write(b, elapsed);
-
-
-
+document.write("is it a prime number?: "+b, "<br>time elapsed: "+elapsed+" miliseconds");
